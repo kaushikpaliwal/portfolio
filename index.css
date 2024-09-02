@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+
+
+.menu{
+  background: linear-gradient(to right, rgb(153, 38, 240), rgba(209, 34, 227, 0.95));
+}
+.menu img{
+  height: 50px;
+}
+.menu li a {
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 600;
+  /* font-size: 15px; */
+}
+.menu li {
+  padding: 0 0.7rem;
+}
+.menu li a{
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.btn-rounded {
+    position: relative;
+    padding: 0.9375rem 4.375rem 0.9375rem 1.2rem;
+    font-weight: 600;
+    margin: 0;
+    border: 0.1rem solid rgba(255, 255, 255, 0.6);
+    background-color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal; 
+    border: 1px solid blueviolet  ;
+}
+.btn-rounded span i {
+  color: #fff;
+  font-size: 1rem;
+  line-height: 2.5rem;
+}
+.btn-rounded span {
+  position: absolute;
+  background-color: #9926f0;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+}
+.fa-phone::before {
+  content: "\f095";
+}
+.btn-rounded span i {
+  color: #fff;
+  font-size: 1rem;
+  line-height: 2.5rem;
+}
+.btn-rounded:hover{
+  background: linear-gradient(to right, rgb(153, 38, 240), rgba(209, 34, 227, 0.95)); 
+  color: white;
+ 
+}
+
+
+
+
+
+
+/* intro section-------------------------------- */
+.intro-section{
+  background: linear-gradient(to right, rgb(153, 38, 240), rgba(209, 34, 227, 0.95)); 
+  padding-top: 10rem;
+  height: 100%;
+  width: 100%;
+}
+.intro-section h2{
+  color: white; 
+  font-size: calc(1.575rem + 3.9vw);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.intro-section p{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal; 
+  color: white;
+  margin-top: 25px;
+  line-height: 2.3rem;
+  font-size: 25px;
+}
+.heading h2{
+  font-size: calc(1.675rem + 3.9vw);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal; 
+}
+.heading .headline::before{
+  content: "";
+  width: 10rem;
+  height: 0.2rem;
+  display: block;
+  margin:  auto;
+  background-color: #9926f0;
+}
+.heading .headline::after{
+  content: "";
+  width: 3rem;
+  height: 0.5rem;
+  display: block;
+  margin: auto;
+  background-color: #9926f0;
+}
+
+
+
+/* <!-- services-desction --> */
+
+.description .border-right{
+  border-right: 2px solid rgb(193, 190, 190);
+}
+.description p{
+  font-size: 20px;
+}
+
+
+/* Service-content------------------------ */
+
+.service-content{
+  padding-top: 6rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.service-content .icon .fa{
+  background-image: linear-gradient(to right, #9926f0, #d122e3);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+font-size: 40px;
+}
+.service-content h3{
+  /* color: #9926f0; */
+font-size: 1.8rem;
+margin-top: 5px;
+    background-image: linear-gradient(to right, #9926f0, #d122e3);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 600;
+}
+.service-content p{
+  line-height: 2;
+  font-size: 17px;
+  margin-bottom: 1rem;
+
+}
+
+
+
+
+/* portfolio------------------------------ */
+.heading p{
+  font-size: 20px;
+  
+}
+.portfolio-content button{
+  color: #9926f0;
+  background-color: #fff;
+  padding: 5px 20px;
+  border:1px solid #9926f0;
+  border-radius: 5px;
+
+
+}
+.portfolio-content button:hover{
+  background-color: #9926f0;
+  color: #fff;
+
+}
+.portfolio-images .card{
+  height: 18.5rem ;
+}
+.portfolio-images .card img{
+  height:  18.5rem;
+}
+
+#get-started{
+  background-color: #E9ECEF;
+  padding-bottom: 20px;
+}
+
+#get-started h4{
+
+  font-size: 3.5rem;
+}
+
+
+#get-started .content{
+  background-image: linear-gradient(to right, #9926f0, #d122e3);
+  color: white;
+}
+
+#get-started ul{
+  padding-left: 0px !important;
+}
+#get-started ul li{
+  list-style: none;
+  padding-left: none;
+  margin-left: none;
+}
+#get-started ul li i{
+  margin-right: 10px;
+}
+#get-started button{
+  background-color: #9926f0;
+  font-size: 20px;  
+}
+#get-started button i{
+  color: #fff;
+}
+#get-started .contact h4{
+  font-size: 30px;
+  color:  #9926f0;
+}
+#get-started .form{
+  position: relative;
+  top: 0;
+}
+#get-started .form .element-one{
+  position: absolute;
+  top: 10px;
+  z-index: -5;
+}
+#get-started .form .element-one{
+  position: absolute;
+  top: 6;
+  left: 6;
+  z-index: 2;
+}
+
+
+/* footer================================== */
+
+#footer{
+  background-color: black;
+}
+
+#footer .contact-box__info a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal; 
+}
+#footer .contact-box__info p{
+  color: rgb(186, 188, 186);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal; 
+}
+#footer .fa-map,.fa-envelope,.fa-phone{
+  color: #9926f0;
+  font-size: 50px;
+}
+#footer .center-footer p{
+  font-size: 20px;
+  color: white;
+}
+#footer .fa{
+  font-size: 30px;
+  color: white;
+  margin: 0px 10px;
+}
+#footer .center-footer{
+  background-color: rgb(90, 87, 87);
+}
+
+@media (width <315px) {
+  #get-started  h4{
+    font-size: 2.4rem;
+  }
+
+ 
+}
+@media (width <390px){
+  #footer .contact-box__info p{
+
+    font-size: 8px;
+  }
+  #footer .contact-box__info a{
+    font-size: 13px;
+  }
+}
+
+
+.footer-bottom__copyright{
+  color: #fff;
+}
+.footer-bottom__copyright a{
+   
+  color: #fff;
+  text-decoration: none;
+}
